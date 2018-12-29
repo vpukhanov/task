@@ -21,7 +21,7 @@ var addCmd = &cobra.Command{
 			os.Exit(1)
 		}
 
-		fmt.Printf("Added \"%s\" to your task list", task)
+		fmt.Printf("Added \"%s\" to your task list\n", task)
 	},
 }
 
